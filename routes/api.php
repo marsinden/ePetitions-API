@@ -26,3 +26,4 @@ Route::apiResource('/petitions', PetitionController::class);
 Route::resource('/authors', AuthorController::class)->only([
     'index', 'show'
 ]);
+
